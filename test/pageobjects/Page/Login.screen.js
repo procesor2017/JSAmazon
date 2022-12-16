@@ -1,6 +1,12 @@
-class LoginScreen {
+class LoginScreen{
     get skipLogin() {
         return $('id=skip_sign_in_button');
+    }
+
+    async waitForLoadLoginPage(){
+        return $('id=skip_sign_in_button').waitForDisplayed({
+            timeout: 20000,
+        });
     }
 
     /**

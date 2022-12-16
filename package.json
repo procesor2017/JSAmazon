@@ -6,7 +6,8 @@
     "appium": "^1.22.3"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.js"
+    "wdio": "wdio run ./wdio.conf.js",
+    "tc2": "wdio run ./wdio.conf.js --mochaOpts.grep TC2"
   },
   "dependencies": {
     "@wdio/appium-service": "^8.0.13",

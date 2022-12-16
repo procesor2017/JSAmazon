@@ -21,4 +21,9 @@ npm run wdio
 ```
 
 # QoL
+Detail for Appium ++ webdriver
+https://webdriver.io/docs/api/appium/
+
+How to work with elements:
 https://webdriver.io/docs/selectors/
+https://webdriver.io/docs/api/element

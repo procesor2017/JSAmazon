@@ -62,7 +62,7 @@ exports.config = {
         "appium:platformVersion": "11.0",
         "appium:automationName":"UIAutomator2",
         "appium:app": androidAppPath,
-        'appium:noReset': true,
+        'appium:noReset': false,
         'appium:appWaitActivity': 'com.amazon.mShop.navigation.MainActivity',
         "appium:autoGrantPermissions": true,
     }],
