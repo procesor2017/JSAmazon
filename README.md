@@ -50,5 +50,7 @@ https://www.lambdatest.com/blog/how-webdriverio-uses-selenium-locators/
 
 # Assertions:
 Chai:
+
 https://webdriver.io/docs/assertion/
+
 https://www.chaijs.com/api/assert/
