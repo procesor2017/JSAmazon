@@ -27,3 +27,28 @@ https://webdriver.io/docs/api/appium/
 How to work with elements:
 https://webdriver.io/docs/selectors/
 https://webdriver.io/docs/api/element
+
+
+# Selectors:
+xPath:
+```
+$(".//android.view.View[contains(@content-desc,'SAMSUNG')]")
+```
+
+Chain:
+```
+$(selector).className("android.view.View").textContains("${my_product}")
+```
+
+id:
+```
+$('id=rs_search_src_text')
+```
+
+More here:
+https://www.lambdatest.com/blog/how-webdriverio-uses-selenium-locators/
+
+# Assertions:
+Chai:
+https://webdriver.io/docs/assertion/
+https://www.chaijs.com/api/assert/

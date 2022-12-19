@@ -1,6 +1,7 @@
 const LoginScreen = require("../pageobjects/Page/Login.screen");
 const DashboardScreen = require("../pageobjects/Page/Dashboard.screen")
 const SearchResultScreen = require("../pageobjects/Page/SearchResult.screen")
+const ProductScreen = require("../pageobjects/Page/Product.screen")
 
 describe("Ours Test", () => {
     beforeEach(async () => {
@@ -19,7 +20,8 @@ describe("Ours Test", () => {
         await DashboardScreen.FindProduct("Samsung");
         await DashboardScreen.CheckDashboardWasLoaded();
         await DashboardScreen.FindProduct("Samsung");
-        await SearchResultScreen.FindProductInSeachResult("Samsung")
+        await SearchResultScreen.FindProductInSeachResult("SAMSUNG");
+        await ProductScreen.addProductToCart();
     }); 
 
 });
